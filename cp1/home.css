@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    color: goldenrod !important;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: goldenrod !important;
+}
+
+.active>a {
+    color: goldenrod !important;
+}
+
+.header-container {
+    display: flex;
+}
+
+.home-header {
+    color: black;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.home-header-sub {
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+hr {
+    padding: 0px;
+    border: solid 20px black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.covid-container {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 40%;
+}
+.search-bar {
+    margin-left: auto;
+    padding: 5px;
+    padding-right: 150px;
+    background-color: white;
+    margin-right: 20px;
+    color: black;
+}
+
+.news-container {
+    margin-top: 40px;
+    height: 500px;
+    width: 30%;
+}
+
+.covid-header {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 90px;
+    
+}
+
+.news-header>a {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+
+.news-category>a {  
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.news-author {
+    font-size: 15px;
+    color:gray;
+}
+.news-container-main {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-logo-container {
+    margin:20px;
+}
+
+.footer-logo {
+    font-size: 50px;
+    font-weight: 900;
+    color: goldenrod;
+    text-align: center;
+}
+
+.footer-name {
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.footer-link>a {
+    margin: 20px;
+    color: white;
+}
+
+.footer-link>a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+img {
+    width: 100%;
+    height: 70%
+}

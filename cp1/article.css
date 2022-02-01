@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    color: goldenrod !important;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: goldenrod !important;
+}
+
+.active>a {
+    color: goldenrod !important;
+}
+
+.article-header {
+    text-align: center;
+    margin: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+}
+
+.article-author {
+    margin-left: 300px;
+    font-size: 25px;
+}
+
+.article-container {
+    display: flex;
+    margin-left: 300px;
+}
+
+.article-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.article {  
+    width:70%;
+    font-size: 20px;
+}
+
+.recommended-container {
+
+    margin: 20px;
+}
+.recommended-container>h1 {
+    
+    margin-left: 40px;
+}
+
+.news-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 80%;
+}
+
+.news-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-logo-container {
+    margin:20px;
+}
+
+.footer-logo {
+    font-size: 50px;
+    font-weight: 900;
+    color: goldenrod;
+    text-align: center;
+}
+
+.footer-name {
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.footer-link>a {
+    margin: 20px;
+    color: white;
+}
+
+.footer-link>a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+img {
+    width: 100%;
+    height: 70%
+}
